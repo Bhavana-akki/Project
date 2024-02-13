@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./shaadi.css">
+</head>
+<body>
+    <h1 style="text-align: center;">SIGN-UP FORM</h1>
+        <form class="signup" style="line-height: 20px; margin-left: 27%; margin-top: 2%;" method="post">
+            <fieldset style="backdrop-filter: blur(7px); height: 1100px; width: 700px;">
+                <br><br> <div style="margin-left: 5%;">
+                    <label for="image">Upload your image: </label><br>
+                    <input type="file" id="image" name="image" accept="image/*" style="border:2px solid black; border-radius:20; background-color: transparent; font-weight: bold;"><br/><br/><br/>
+                <label for='name'>Fullname: </label>
+                <input type='text' id='name' style="border:2px solid black; border-radius:20; background-color: transparent; font-weight: bold;" placeholder='Enter your name'> </input> <br/> <br/> <br/>
+                <label for='fname'>Father name: </label>
+                <input type='text' id='fname' style="border:2px solid black; border-radius:20; background-color: transparent; font-weight: bold;" placeholder="Enter your father's name"> </input> <br/> <br/> <br/>
+                <label for='mname'>Mother name: </label>
+                <input type='text' id='mname' style="border:2px solid black; border-radius:20; background-color: transparent; font-weight: bold;" placeholder="Enter your mother's name"> </input> <br/> <br/> <br/>
+                <label for='phone'>Mobile number </label>
+                <input type='number' id='phone' style="border:2px solid black; border-radius:20; background-color: transparent; font-weight: bold;" placeholder='Enter your mobile number'> </input> <br/> <br/> <br/>
+                <label for='email'>Email: </label>
+                <input type='email' id='email' style="border:2px solid black; border-radius:20; background-color: transparent; font-weight: bold;" placeholder="Enter your Mail ID"> </input> <br/> <br/> <br/>
+                <label for='password'>Password: </label>
+                <input type='password' id='password' style="border:2px solid black; border-radius:20; background-color: transparent; font-weight: bold;" placeholder="Enter your password"> </input> <br/> <br/> <br/>
+                <label for='cpassword'>Confirm Password: </label>
+                <input type='password' id='cpassword' style="border:2px solid black; border-radius:20; background-color: transparent; font-weight: bold;" placeholder="Confirm your password"> </input> <br/> <br/> <br/>
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" style="border:2px solid black; border-radius:20; background-color: transparent; font-weight: bold;">
+                <option value="Select">Select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="others">Others</option>
+                </select> <br/> <br/> <br/>
+                <label for='caste'>Caste: </label>
+                <input type='text' id='caste' style="border:2px solid black; border-radius:20; background-color: transparent; font-weight: bold;" placeholder='Enter your Caste'> </input> <br/> <br/> <br/>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" style="border:2px solid white; border-radius:20; background-color: transparent; background-image: linear-gradient(to bottom, #000000, #FFFFFF); height: 20px; width: 100px; font-weight: bold;"> <br/> <br/> <br/>
+                <label for="qualification">Qualification:</label>
+                <select id="qualification" name="qualification" style="border:2px solid white; border-radius:20; background-color: transparent; background-image: linear-gradient(to bottom, #000000, #FFFFFF); height: 20px; width: 140px; font-weight: bold;">
+                <option value="">Select</option>
+                <option value="high_school">High School</option>
+                <option value="college">College</option>
+                <option value="bachelor_degree">Bachelor's Degree</option>
+                <option value="master_degree">Master's Degree</option>
+                <option value="phd">Ph.D or higher</option>
+                </select> <br/><br/><br/>
+                <label for='work' style="background-image: linear-gradient(to right, #000000, #FFFFFF);-webkit-background-clip: text;color: transparent;">Your Occupation and Working in: </label>
+                <input type='text' id='work' style="border:2px solid white; border-radius:20; height: 20px; width:140px; background-color: transparent; background-image: linear-gradient(to bottom, #000000, #FFFFFF); font-weight: bold;"> </input> <br/> <br/> <br/>
+                <label for='height'>Height:  </label>
+                <input type="text" id="height" name="height" step="0.01" min="0" style="border:2px solid black; border-radius:20; background-color: transparent;background-color: transparent; background-image: linear-gradient(to bottom, #000000, #FFFFFF); height: 20px; font-weight: bold;" placeholder='Enter your height'> </input> <br/> <br/> <br/>
+                <div style="display: flex; align-items: center;">
+                    <label for='address' style="margin-right: 10px;">Address: </label>
+                </div>
+                <textarea id="address" name="address" rows="4" cols="50" style="border:2px solid white; border-radius:20; background-color: transparent; height: 25px; color: white; font-weight: bold; height: 80px; background-image: linear-gradient(to right, #000000, #FFFFFF);"> </textarea><br/> <br/>
+                <button style="border:2px solid black; border-radius:20; background-color: transparent; width: 53px; border-radius: 8px; height: 30px; width: 80px;"><a href="./thankyou.html" style=" text-decoration: none; font-weight: bold; color: black;">SUBMIT</a></button>
+                <button style="border:2px solid black; border-radius:20; background-color: transparent; width: 53px; border-radius: 8px; height: 30px; width: 80px;"><a href="./shaadi.html" style=" text-decoration: none; font-weight: bold; color: black;">CANCEL</a></button>
+                </div>
+
+</body>
+</html>
